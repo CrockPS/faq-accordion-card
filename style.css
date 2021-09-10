@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#pai{
+    background-image: linear-gradient(#af67e9, #6565e7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#card{
+    background: white;
+    width: 65%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+#box{
+    margin-top: 205px;
+    margin-left: -92px;
+    position: absolute;
+}
+
+#div1{
+    background-image: url("images/illustration-woman-online-desktop.svg"), url("images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left -85px top 70px, left -580px top -300px ;
+    width: 50%;
+    height: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 40px;
+}
+
+#div2{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+h1{
+    margin-top: 70px;
+    font-weight: 700;
+}
+
+.p{
+    font-size: 15px;
+    font-weight:400;
+}
+
+.checkbox{
+    display: none;
+}
+
+label{
+    position: relative;
+}
+
+label:hover{
+    cursor: pointer;
+}
+
+.arrow{
+    width: 12px;
+    height: 12px;
+}
+
+.p1{
+    display: none;
+}
+
+.checkbox:checked + .p1{
+    display: flex;
+    width: 340px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.arrow2{
+    width: 12px;
+    height: 12px;
+    transform: rotateX(180deg);
+}
+
+.p-transform{
+    font-size: 16px;
+    font-weight:700;
+}
